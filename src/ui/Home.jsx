@@ -14,7 +14,7 @@ function Home() {
         Best 
         </span> pizza <br/>straight out of the oven, <br/>straight to you.
       </h1>
-      <img alt="pizza" src='../../public/pizza.jpg' className='h-[300px] mx-auto my-2'/>
+      <img alt="pizza" src='../img/pizza.jpg' className='h-[300px] mx-auto my-2'/>
       {username===""?<CreateUser/>:
       <div>
         <Button to='/menu'>Continue the order</Button>
